@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="owl.carousel.css">
+  <link rel="stylesheet" href="owl.theme.default.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width:500px)" href="phone.css">
+  
+
+  <title>AhBlog</title>
+</head>
+
+<body>
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+
+<!-- navber************** -->
+  <nav class="navbar navbar-expand-lg navbar-dark nav" id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand navHead" href="#">Ah Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="content.html">Content</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="writer.html">Writers</a>
+          </li>
+         
+
+
+        </ul>
+        <li class="btnLi">
+          <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal1">SignUp</button>
+          <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal2">Login</button>
+        </li>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+ 
+
+  <section class="container" id="home">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <h1>WelCome to Our Blog,Buddy!</h1>
+        <img src="one.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime tenetur ipsum nostrum cumque!</p>
+      </div>
+      <div class="item">
+        <h1>Here is your FavBlog!</h1>
+        <img src="two.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime tenetur ipsum nostrum cumque!</p>
+      </div>
+      <div class="item">
+        <h1>Read your FavBlog,Buddy!</h1>
+        <img src="three.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime tenetur ipsum nostrum cumque!</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="container" id="writing">
+    <h1>Our Some popular Blog</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col fifu">
+        <div class="card h-100">
+          <img src="bd.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><B>Bangladesh is a beautiful country</B></h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+              <a class="cardLink" href="/"><b>Click to read more</b></a>
+          </div>
+        </div>
+      </div>
+      <div class="col fifu">
+        <div class="card h-100">
+          <img src="load.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Load shedding</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit animi rem
+              maxime dolor laboriosam dicta dolore minus corporis repellendus</p>
+              <a class="cardLink" href="/"><b>Click to read more</b></a>
+          </div>
+        </div>
+      </div>
+      <div class="col fifu">
+        <div class="card h-100">
+          <img src="san.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Saint Martin</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quod ipsam quasi
+              commodi. Iste doloribus ab, magni ad atque quod?.</p>
+              <a class="cardLink" href="/"><b>Click to read more</b></a>
+          </div>
+        </div>
+      </div>
+      <div class="col fifu">
+        <div class="card h-100">
+          <img src="cox.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cox's Bazar</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+              <a class="cardLink" href="/"><b>Click to read more</b></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="view">
+    <h1 class="hlw">Our Achivements</h1>
+
+    <div id="count" class="container">
+      <div class="row">
+        <div class="col-sm-4 xoxo">
+          <h1 class="text-center counter">0</h1>
+          <h3 class="text-center">Subscription</h3>
+        </div>
+        <div class="col-sm-4 xoxo">
+          <h1 class="text-center counter">0</h1>
+          <h3 class="text-center">Views</h3>
+        </div>
+        <div class="col-sm-4 xoxo">
+          <h1 class="text-center counter">0</h1>
+          <h3 class="text-center">Reader</h3>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+<footer>
+  <span>Copyright &copy; www.ahblog.net</span>
+</footer>
+
+
+<!-- Modal -->
+
+ <div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel">Sign up here,Buddy!</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body yoyo">
+        <!-- success news -->
+        
+          <div class="success"><b>Congrates!</b> You successfully signed up with our Website. <button>X</button></div>
+          <div class="fail"><b>Sorry!</b> You have failed to sign up. Please provide correct information and try again. <button>X</button></div>
+
+        <form class="form-group">
+          <label for="name">Name</label>
+          <input class="form-control" id="name" placeholder="Enter your name...." type="text">
+          <span class="forName"><b>Error</b> : Your username must be under 10 word and its first letter should be alphabet!</span>
+
+
+
+          <label for="email">Email</label>
+          <input class="form-control" id="email" name="Email" placeholder="Enter your email...." type="text">
+          <span class="forEmail"><b>Error</b> : Your Email should be correct syntax!</span>
+
+
+          <label for="password">Password</label>
+          <input class="form-control" id="password" placeholder="Enter your password...." type="password">
+          <span class="forPass"><b>Error</b> : Your password should be more than 6 digit!</span>
+
+
+          <label for="confirmPassword">Confirm Password</label>
+          <input class="form-control" id="confirmPassword" placeholder="Enter your email...." type="password">
+          <span class="forConPass"><b>Error</b> : Your confirm password is wrong!</span>
+
+
+          <label for="mobile">Phone number</label>
+          <input class="form-control" placeholder="Enter your mobile" id="mobile" type="text">
+          <span class="forMobile"><b>Error</b> : Your mobile number is invalid!</span>
+
+
+          <label for="about">About</label>
+          <textarea id="about" class="form-control" placeholder="Tell us about yourself..(Optional)"></textarea>
+          
+          <button id="btn" name="submit" class="btn btn-info">Submit</button>
+        </form>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+   
+    </div>
+  </div>
+</div>
+ </div>
+ <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel">Sign up here,Buddy!</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body yoyo">
+        <!-- success news -->
+        
+          <div class="success"><b>Congrates!</b> You successfully signed up with our Website. <button>X</button></div>
+          <div class="fail"><b>Sorry!</b> You have failed to sign up. Please provide correct information and try again. <button>X</button></div>
+
+        <form class="form-group">
+          <label for="name">Name</label>
+          <input class="form-control" id="name" placeholder="Enter your name...." type="text">
+          <span class="forName"><b>Error</b> : Your username must be under 10 word and its first letter should be alphabet!</span>
+
+
+
+          <label for="email">Email</label>
+          <input class="form-control" id="email" name="Email" placeholder="Enter your email...." type="text">
+          <span class="forEmail"><b>Error</b> : Your Email should be correct syntax!</span>
+
+
+          <label for="password">Password</label>
+          <input class="form-control" id="password" placeholder="Enter your password...." type="password">
+          <span class="forPass"><b>Error</b> : Your password should be more than 6 digit!</span>
+          
+          
+          <button id="btn" name="submit" class="btn btn-info">Login</button>
+        </form>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+   
+    </div>
+  </div>
+</div>
+ </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+  
+  <script src="owl.carousel.min.js"></script>
+ 
+
+  <script>
+    $(document).ready(function ($) {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true
+      });
+
+    })
+  </script>
+
+<script>
+  const count1 = document.querySelectorAll(".counter")[0];
+  const count2 = document.querySelectorAll(".counter")[1];
+  const count3 = document.querySelectorAll(".counter")[2];
+let a1 = 0;
+let a2 = 0;
+let a3 = 0;
+
+  window.addEventListener("scroll", function(){
+    let rect = count1.getBoundingClientRect().top;
+    let height = innerHeight/1.15;
+
+    if(rect<height){
+      setInterval(() => {
+        
+        a1 = a1+40;
+        if(a1<=20300){
+          console.log(a1);
+         
+
+        }else{
+          a1= 20300;
+        }
+        count1.innerHTML=a1;
+      }, 4);
+    }
+
+
+    if(rect<height){
+      setInterval(() => {
+        
+        a2 = a2+100;
+        if(a2<=50700){
+        }else{
+          a2= 50700;
+        }
+        count2.innerHTML=a2;
+      }, 3);
+    }
+
+    if(rect<height){
+      setInterval(() => {
+        
+        a3 = a3+8;
+        if(a3<=4000){
+        }else{
+          a3= 4000;
+        }
+        count3.innerHTML=a3;
+      }, 2);
+    }
+
+
+
+
+
+  })
+</script>
+
+
+<!-- form Validation -->
+<script>
+  // variables
+
+
+let validation = false;
+const Name = document.getElementById("name");
+const form = document.querySelector(".form-group");
+const Email = document.getElementById("email");
+const Pass = document.getElementById("password");
+const conPass = document.getElementById("confirmPassword");
+const Mobile = document.getElementById("mobile");
+const about = document.getElementById("about");
+const btn = document.getElementById("btn");
+const forName = document.querySelector(".forName");
+const forEmail = document.querySelector(".forEmail");
+const forPass = document.querySelector(".forPass");
+const forConPass = document.querySelector(".forConPass");
+const forMobile = document.querySelector(".forMobile");
+const success = document.querySelector(".success");
+const sucBtn = document.querySelector(".success button");
+const fail = document.querySelector(".fail");
+const failBtn = document.querySelector(".fail button");
+
+// event listener
+
+Name.addEventListener("blur", function () {
+    validation= false;
+    if (Name.value !== ""){
+        
+    let regex = /^[a-zA-Z][A-Za-z0-9$@]{0,10}$/;
+    let str = Name.value;
+    if (!regex.test(str)) {
+        validation= true;
+        forName.style.display = "block";
+        validation = false;
+    }else{
+        forName.style.display ="none";
+        validation = true;
+    }
+}
+})
+Email.addEventListener("blur", function () {
+    validation= false;
+    if(Email.value !== ""){
+        
+    let regex = /^[a-z0-9]{3,20}@[a-zA-Z]{0,6}\.com$/;
+    let str = Email.value;
+    if (!regex.test(str)) {
+        validation=true;
+        forEmail.style.display = "block";
+        validation = false;
+    }else{
+        forEmail.style.display ="none";
+        validation = true;
+    }}
+})
+
+Pass.addEventListener("blur",function(){
+    if(Pass.value !== ""){
+        validation= false;
+        let regex = /[a-zA-Z0-9@$%&]{6,20}/
+        let str = Pass.value;
+        
+        if(!regex.test(str)){
+            validation= true;
+            forPass.style.display = "block";
+            validation = false;
+        }else{
+            forPass.style.display= "none";
+            validation = true;
+        }
+    }
+
+})
+
+conPass.addEventListener("blur", function(){
+    validation= false;
+    
+        let conPassVal = conPass.value;
+        if(conPassVal!==Pass.value){
+            validation= true;
+            forConPass.style.display="block";
+            validation = false;
+        
+    }else{
+        forConPass.style.display = "none";
+        validation = true;
+    }
+})
+
+
+Mobile.addEventListener("blur",function(){
+    validation= false;
+    if(Mobile.value !==""){
+        let regex =/^01[0-9]{9}$/
+        let str = Mobile.value;
+        if(!regex.test(str)){
+            validation= true;
+            forMobile.style.display = "block";
+            validation = false;
+        }else{
+            forMobile.style.display = "none";
+            validation = true;
+        }
+    }
+})
+
+btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    console.log("hello");
+    if(validation){
+        success.style.display="block";
+        setTimeout(() => {
+            success.style.display="none";
+        }, 5000);
+        Name.value = "";
+        Email.value ="";
+        Pass.value="";
+        conPass.value="";
+        Mobile.value="";
+        about.value="";
+        validation= false;
+    }else{
+        Name.value = "";
+        Email.value ="";
+        Pass.value="";
+        conPass.value="";
+        Mobile.value="";
+        about.value="";
+        fail.style.display="block";
+        validation=false;
+        success.style.display="none";
+        setTimeout(() => {
+            fail.style.display="none";
+        }, 5000);
+
+    }
+})
+
+sucBtn.addEventListener("click", function(){
+    success.style.display= "none";
+})
+failBtn.addEventListener("click",function(){
+    fail.style.display="none";
+})
+</script>
+
+
+<script>
+  const mainDivs = document.querySelectorAll(".fifu");
+
+window.addEventListener("scroll", function(){
+  for(const mainDiv of mainDivs){
+    const rect = mainDiv.getBoundingClientRect().top;
+    const inHei = window.innerHeight/1.2;
+    console.log(rect, inHei, mainDiv.getBoundingClientRect());
+
+    if(rect<inHei){
+        mainDiv.classList.add("ani");
+    }}
+})
+</script>
+</body>
+
+</html>

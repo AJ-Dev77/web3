@@ -1,0 +1,678 @@
+.nav{
+    background:rgb(255, 23, 236);
+    padding: 11px 60px;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    
+}
+.navHead{
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+/* font-family: 'Shippori Mincho', serif; */
+
+
+#home {
+   
+    
+    margin-top: 20px;
+      
+    height: auto;
+    background: linear-gradient(120deg, rgb(230, 41, 255), rgb(128, 21, 216));
+}
+
+.item{
+    height: 100%;
+    position: relative;
+    width: 65%;
+    margin: auto;
+}
+
+.item h1 {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    color: white;
+    font-size: 47px;
+    text-shadow: 1px 1px 2px white;
+}
+
+.item p {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+    color:white;
+    padding: 30px 25px;
+    font-size: 20px;
+    top: 0;
+}
+.item::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    content: "";
+    background: linear-gradient(120deg, rgba(163, 110, 143, 0.747), rgba(140, 74, 194, 0.699));
+}
+
+#home img {
+    
+    margin: auto;
+    height: auto;
+}
+body{
+    background: rgb(234, 143, 252);
+}
+
+
+.item{
+    background: cyan;
+}
+
+#writing{
+    margin-top: 50px;
+}
+
+
+#writing h1 {
+    margin: 67px 0;
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    text-shadow: 1px 1px 3px black;
+    position: relative;
+}
+
+#writing h1::after {
+    content: "";
+    position: absolute;
+    top: 82px;
+    background: purple;
+    height: 6px;
+    width: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#view .hlw{
+    margin: 67px 0;
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    text-shadow: 1px 1px 3px black;
+    position: relative;
+}
+
+#view .hlw::after {
+    content: "";
+    position: absolute;
+    top: 82px;
+    background: purple;
+    height: 6px;
+    width: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#view{
+    margin-bottom: 30px;
+}
+
+#count{
+    background: linear-gradient(120deg, rgb(227, 32, 253), rgb(148, 21, 233));
+    padding: 61px 0px;
+    color: white;
+}
+
+.cardLink{
+    text-decoration: none;
+    color: rgb(62, 212, 212);
+}
+
+
+footer {
+    background: #7e1390;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 23px;
+   
+   
+    margin-top: 40px;
+}
+
+
+/* there is the second page "content" */
+
+
+
+#contents{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#contents img{
+    width: 320px;
+}
+
+
+.child {
+    background: linear-gradient(120deg, rgb(243, 85, 248), rgb(144, 79, 248));
+    margin-bottom: 40px;
+    padding: 37px 10px;
+    font-family: cursive;
+    color: white;
+    
+    box-shadow: 0px 10px 41px -15px black;
+}
+
+
+.child p {
+    color: #f5d7d7;
+}
+.child h1{
+    text-shadow: 1px 1px 2px black;
+}
+
+.child a{
+    text-decoration: none;
+    color: rgb(89, 248, 248);
+    font-family: sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.shuru{
+ 
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    text-shadow: 1px 1px 3px black;
+    position: relative;
+}
+
+.shuru::after {
+    content: "";
+    position: absolute;
+    top: 82px;
+    background: purple;
+    height: 6px;
+    width: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.btnLi {
+    margin-right: 60px;
+}
+
+
+.success {
+    background: #6abf6a;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 9px;
+    position: relative;
+    top: -12px;
+    display: none;
+    
+}
+
+.success button {
+    border: none;
+    outline: none;
+    padding: 4px 7px;
+    border-radius: 21px;
+    color: #fff6f6fc;
+    background: #25a5c1;
+}
+.fail{
+background:rgb(255 124 169);
+padding: 10px 15px;
+color: white;
+border-radius: 9px;
+text-shadow: 1px 1px 2px black;
+position: relative;
+top: -12px;
+display: none;
+
+}
+.fail button{
+    border: none;
+    outline: none;
+    padding: 4px 7px;
+    border-radius: 21px;
+    color: #fff6f6fc;
+    background: #25a5c1;
+}
+
+
+.forName {
+    display: none;
+    color: #da2828;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px white;
+}
+.forEmail{
+    display: none;
+    color: #da2828;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px white;
+}
+.forPass{
+    display: none;
+    color: #da2828;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px white;
+}
+.forConPass{
+    display: none;
+    color: #da2828;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px white;
+}
+.forMobile{
+    display: none;
+    color: #da2828;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px white;
+}
+
+
+#btn {
+    margin: 8px;
+    color: white;
+}
+
+.yoyo {
+    padding: 29px;
+    background: linear-gradient(120deg, #e37af5, #3c56e2);
+    color: white;
+}
+
+.ani{
+    animation: ani 0.7s linear;
+    animation-fill-mode: forwards;
+}
+.fifu{
+    opacity: 0;
+}
+.child3{
+    opacity: 0;
+}
+
+.child4{
+    opacity: 0;
+}
+
+
+
+@keyframes ani{
+    0%{
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.05);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#katib img {
+    width: 253px;
+    height: 152px;
+    border-radius: 44px;
+}
+
+
+#katib {
+    margin-top: 30px;
+}
+
+
+#katib h3 {
+    color: black;
+    text-align: center;
+    margin: 11px;
+}
+
+
+#katib p {
+    text-align: center;
+}
+
+.accounts {
+    text-align: center;
+    font-size: 20px;
+}
+
+.accounts i:nth-child(1) {
+    background-color: #3b5998;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 14px;
+}
+
+
+.accounts i:nth-child(2) {
+    background: #00acee;
+    color: white;
+    padding: 5px 4px;
+    border-radius: 15px;
+}
+
+.accounts i:nth-child(3) {
+    background: #0072b1;
+    color: white;
+    padding: 5px;
+    border-radius: 16px;
+}
+
+#katib h1{
+    
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    text-shadow: 1px 1px 3px black;
+    position: relative;
+}
+
+
+#katib h1::after {
+    content: "";
+    position: absolute;
+    top: 82px;
+    background: purple;
+    height: 6px;
+    width: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+
+
+
+/* ********REsponsive******** */
+
+@media (max-width:1200px){
+    .item{
+        width: 80%;
+    }
+}
+@media (max-width:1200px){
+   
+}
+@media (max-width:1043px){
+    #nav{
+        padding: 15px;
+    }
+}
+
+@media (max-width:990px){
+    .btnLi{
+        margin-bottom: 10px;
+    }
+
+    #home{
+      max-width: 90%;
+    }
+
+    .item h1{
+        font-size: 36px;
+        padding: 0%;
+    }
+    #writing h1{
+        font-size: 38PX;
+    }
+}
+
+@media (max-width:810px){
+    .item p{
+        padding: 0 60px;
+        margin-top: 150px;
+    }
+    .item h1{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width:745px){
+    .item h1{
+        font-size: 29px;
+    }
+    #view .hlw{
+        font-size: 34px;
+    }
+    .nav{
+        padding:12px 15px;
+    }
+}
+
+@media (max-width:682px){
+    .item p{
+        padding: 0px 10px;
+        margin-top: 120px;
+    }
+    .item h1{
+        margin-top: 46px;
+        font-size: 25px;
+    }
+    #writing h1{
+        font-size: 32px;
+    }
+
+    #home{
+        max-width: 98%;
+    }
+   
+    
+#view {
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+}
+
+@media (max-width:575px){
+    #count{
+        padding:25px;
+    }
+    .xoxo {
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width:535px){
+    .item p{
+    margin-top: 110px;
+    font-size: 15px;
+    }
+    .item{
+        width: 95%;
+    }
+    #katib h1{
+        font-size: 30px !important;
+    }
+
+    #katib h1::after{
+        top:60px !important;
+    }
+
+}
+
+@media (max-width:480px){
+    .item h1{
+        font-size: 22px;
+    }
+    .item p{
+        font-size: 11px;
+    }
+
+    #home{
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
+    .item{
+        width: 102%;
+    }
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 7px;
+    }
+    #home {
+        height: 353px;
+       
+    }
+    #view .hlw {
+        font-size: 30px;
+    }
+    #view .hlw::after{
+        top: 66px;
+    }
+}
+@media (max-width:431px){
+    #writing h1 {
+        font-size: 28px;
+    }
+    #writing h1::after{
+        top:66px;
+    }
+    footer{
+        font-size: 14px;
+    }
+}
+@media (max-width:360px){
+    .item h1{
+        margin-top: 30px;
+        width: 98%;
+    }
+    .item p{
+        margin-top: 95px;
+        width: 98%;
+    }
+    
+    #home{
+        height: 260px;
+    }
+    .item h1 {
+        font-size: 20px;
+    }
+    #writing h1 {
+        font-size: 23px;
+    }
+    #view .hlw {
+        font-size: 26px;
+        margin: 60px 0px;
+    }
+    #view .hlw::after {
+        top: 52px;
+    }
+    #katib h1{
+        font-size: 25px !important;
+    }
+    #katib h1::after{
+        top:55px !important;
+    }
+
+  
+}
+
+@media (max-width:280px){
+    #writing h1{
+        font-size: 18px;
+        margin-bottom: 55px;
+    }
+    #writing h1::after {
+        top: 47px;
+    }
+    #view .hlw{
+        font-size: 21px;
+    }
+
+}
+@media (max-width:1199px){
+    .child{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .child h1{
+        text-align: center;
+    font-size: 33px;
+    margin: 14px 0px;
+    }
+    #katib img{
+        
+    width: 223px;
+    height: 132px;
+    }
+
+    
+.child p {
+   
+    text-align: center;
+}
+
+.col-8 {
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media (max-width:991px){
+    .shuru{
+        font-size: 38px;
+    }
+
+    .child h1{
+        font-size:27px ;
+    }
+    #katib h1{
+        font-size: 37px;
+    }
+    #katib h1::after{
+        top: 73px;
+    }
+    
+.wrt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 58px;
+}
+}
+
+@media (max-width:767px){
+    .shuru{
+        margin-bottom: 72px;
+    }
+    .shuru::after{
+        top:72px
+    }
+}
+
+

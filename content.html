@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>AhBlog-content</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark nav" id="nav3">
+    <div class="container-fluid">
+        <a class="navbar-brand navHead" href="#">Ah Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="content.html">Content</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link "  aria-current="page"  href="writer.html">Writers</a>
+                </li>
+
+               
+
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+  <section class="container" id="contents">
+    <h1 class="shuru">Our Recent Blogs</h1>
+    <div class="row child">
+      <img class="col-4" src="content1.jpg" alt="">
+      <div class="col-8">
+        <h1>Saudi Arabia - A land of Tawheed</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem explicabo consectetur ab, dolore quod
+          laboriosam.</p>
+        <b><a href="#">Read more</a></b>
+      </div>
+    </div>
+    <div class="row child">
+      <img class="col-4" src="content2.jpg" alt="">
+      <div class="col-8">
+        <h1>Islam - The greatest religion</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem explicabo consectetur ab, dolore quod
+          laboriosam.</p>
+        <b><a href="#">Read more</a></b>
+
+      </div>
+    </div>
+    <div class="row child child3">
+      <img class="col-4" src="content3.jpg" alt="">
+      <div class="col-8">
+        <h1>Natural Beautity of Noakhali</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem explicabo consectetur ab, dolore quod
+          laboriosam.</p>
+        <b><a href="#">Read more</a></b>
+      </div>
+    </div>
+    <div class="row child child4">
+      <img class="col-4" src="content4.jpg" alt="">
+      <div class="col-8">
+        <h1>The Phenominon Sky</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem explicabo consectetur ab, dolore quod
+          laboriosam.</p>
+        <b><a href="#">Read more</a></b>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Copyright &copy; www.ahblog.net</span>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script>
+
+    const mainDivs = document.querySelectorAll(".child");
+    const div1 = document.querySelectorAll(".child")[0];
+    const div2 = document.querySelectorAll(".child")[1];
+
+    div1.classList.add("ani");
+    div2.classList.add("ani");
+
+    window.addEventListener("scroll", function () {
+      for (const mainDiv of mainDivs) {
+        const rect = mainDiv.getBoundingClientRect().top;
+        const inHei = window.innerHeight / 1.3;
+        console.log(rect, inHei, mainDiv.getBoundingClientRect());
+
+        if (rect < inHei) {
+          mainDiv.classList.add("ani");
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
